@@ -1,7 +1,7 @@
 {
-  "name": "angular-quickstart",
+  "name": "a2-color-picker",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "repackaged angular2-color-picker directive",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
@@ -13,8 +13,8 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["angular2", "directive", "angular2-color-picker", "color-picker"],
+  "author": "chris blazek, alberplz",
   "license": "MIT",
   "dependencies": {
     "@angular/common": "~2.4.0",
