@@ -2,6 +2,7 @@
   "name": "a2-color-picker",
   "version": "1.0.0",
   "description": "repackaged angular2-color-picker directive",
+  "main": "app/main.js",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
